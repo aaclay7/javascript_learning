@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Class Exercise</title>
+    
+     
+</head>
+
+<body>
+
+<h1 id="h1-tag"></h1>
+<p id="date"></p>
+
+<script>
+    var userName = "Alex";
+    var todaysDate = new Date();
+
+    document.getElementById("h1-tag").innerHTML="Hello " + userName;
+    document.getElementById("date").innerHTML=todaysDate;
+    myFunction();
+</script>
+    
+    
+
+    <p id="button">Click me button!</p>
+    
+    <button onclick="myFunction()">Click Me!</button>
+    
+    <script>
+         function myFunction(){
+            alert(document.getElementById("button").innerHTML = "Hello");
+         }
+    </script>
+    
+</body>
+</html>
